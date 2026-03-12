@@ -12,13 +12,15 @@ function UserPage() {
 
   return (
     <div>
-      User Page
-
-      <button onClick={() => {
-        navigate('/user')
-      }}>To User page</button>
+      <br />
 
       <a href="/login">To login page</a>
+
+      <br />
+
+      <button onClick={() => navigate("/admin")}>
+        To admin page
+      </button>
 
       <p>
         Provinces
